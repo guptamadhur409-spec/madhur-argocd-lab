@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.27
+          image: madhurmas1705/argocd-demo:1.0.0
           ports:
             - containerPort: 80
